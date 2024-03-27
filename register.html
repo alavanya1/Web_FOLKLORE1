@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+
+<title>Registration Form</title>
+<link rel="stylesheet" href="CSS/stylee.css" type="text/css">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">
+</script>
+<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Font Awesome Kit -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<body>
+  <article class="bg" style="background-color: rgba(153, 147, 147, 0);">
+    <B>
+      <div class="topleft">
+        <div class="topleft text-gradient">
+          FOLKLORE
+        </div>
+      </div>
+    </B>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">HOME</a>
+      <a href="register.html">REGISTRATION</a>
+      <a href="doc.html">PAYMENT</a>
+
+    </div>
+
+    <div class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    
+    <div class="main">
+      <div class="register">
+        <form id="/sign_up" method="post">
+          <center><h2>REGISTER HERE</h2></center>
+
+          <b><label>First Name : </label></b>
+          <br>
+          <input type="text" name="fname" id="fname" placeholder="Enter Your First Name">
+          <br>
+          <b><label> Last Name : </labels></b>
+          <br>
+          <input type="text" name="fname" id="lname" placeholder="Enter Your Last Name">
+          <br>
+          <b><label> Your Age : </label></b>
+          <br>
+          <input type="number" name="age" id="age" placeholder="How old are you">
+          <br>
+          <b><label>Email : </label></b><br>
+          <input type="email" name="email" id="email" placeholder="Enter Your Valid Email">
+          <br>
+          <b><label>Gender : </label></b>
+          <br>
+          &nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="male">
+          &nbsp;
+          <span id="male">Male</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="female">
+          &nbsp;
+          <span id="female">Female</span>
+          <br>
+          <b><label>Interested Dance</label></b>
+          <br>
+
+          <input type="checkbox" name="Dance" id="Bharatanatyam">
+          &nbsp;
+          <span id="Bharatanatyam">Bharatanatyam</span>
+          &nbsp;&nbsp;
+          <br>
+          <input type="checkbox" name="Dance" id="Kathak">
+          &nbsp;
+          <span id="Kathakl">Kathak</span>
+          &nbsp;&nbsp;&nbsp;
+          <br>
+          <input type="checkbox" name="Dance" id="Kathakali">
+          &nbsp;
+          <span id="Kathakali">Kathakali</span>
+          &nbsp;
+          <br>
+          <input type="checkbox" name="Dance" id="Odissi">
+          &nbsp;
+          <span id="Odissi">Odissi</span>
+          &nbsp;
+          <br>
+          <input type="checkbox" name="Dance" id="Yakshagana">
+          &nbsp;
+          <span id="Yakshagana">Yakshagana</span>
+          <br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="submit" value="Submit" name="submit" id="submit">
+        </form>
+      </div>
+    </div>
+
+    <script src="//code.tidio.co/spfvpd5mlwcvulhkhvugwawx0klwds5c.js" async></script>
+</body>
+
+</html>
